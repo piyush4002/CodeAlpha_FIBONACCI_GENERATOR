@@ -2,7 +2,7 @@ num = int(input("Enter a number :"))
 n1 = 0
 n2 = 1
 sum = 0
-if num < 0:
+if num <= 0:
   print('please enter number greater than 0')
 else:
   for i in range(0 ,num):
